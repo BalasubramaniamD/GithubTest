@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  githubtest:
+    image: ${DOCKER_REGISTRY}githubtest
+    build:
+      context: .\GitHubTest
+      dockerfile: Dockerfile
